@@ -21,12 +21,12 @@ body {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
-  color: #4c4c4c;
+  color: #000;
 }
 
 p, .paragraph {
   font-weight: 400;
-  color: #4c4c4c;
+  color: #000;
   font-size: 15px;
   line-height: 1.8;
   font-family: "Roboto", sans-serif;
@@ -112,31 +112,31 @@ h6, .h6 {
 }
 
 .btn-primary {
-  background: #41228e;
+  background: #88a0a8;
   color: #fff;
 }
 
 .btn-primary:active {
-  background: #542cb7 !important;
+  background: #88a0a8 !important;
 }
 
 .btn-primary:hover {
-  background: #542cb7;
+  background: #88a0a8;
 }
 
 .btn-primary.focus, .btn-primary.active {
-  background: #542cb7 !important;
+  background: #88a0a8 !important;
   box-shadow: none !important;
 }
 
 .btn-transparent {
   background: transparent;
-  color: #41228e;
+  color: #88a0a8;
   font-weight: bold;
 }
 
 .btn-transparent:active, .btn-transparent:hover {
-  color: #41228e;
+  color: #88a0a8;
 }
 
 body {
@@ -145,12 +145,12 @@ body {
 }
 
 ::-moz-selection {
-  background: #542cb7;
+  background: #88a0a8;
   color: #fff;
 }
 
 ::selection {
-  background: #542cb7;
+  background: #88a0a8;
   color: #fff;
 }
 
@@ -199,11 +199,11 @@ select:focus {
 }
 
 a.text-dark:hover {
-  color: #41228e !important;
+  color: #88a0a8 !important;
 }
 
 a:hover {
-  color: #41228e;
+  color: #88a0a8;
 }
 
 .slick-slide {
@@ -251,11 +251,11 @@ a:hover {
 }
 
 .bg-primary {
-  background: #41228e !important;
+  background: #fff !important; /*bg of home*/
 }
 
 .bg-gray {
-  background: #eaeaea !important;
+  background: #fff  !important;
 }
 
 .text-primary {
@@ -342,6 +342,10 @@ a:hover {
   background-color: #222222 !important;
 }
 
+.bg-light {
+  background-color: #fff !important; /*background color white*/
+}
+
 /* icon */
 .icon {
   font-size: 45px;
@@ -426,7 +430,7 @@ textarea.form-control {
 }
 
 .navigation.nav-bg {
-  background-color: #41228e;
+  background-color: #fff;
   padding: 15px 100px;
 }
 
@@ -439,7 +443,7 @@ textarea.form-control {
 @media (max-width: 991px) {
   .navigation {
     padding: 20px;
-    background: #41228e;
+    background: #fff;
   }
 }
 
@@ -454,7 +458,7 @@ textarea.form-control {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff;
+  color: #000;
 }
 
 .hero-area {
@@ -567,14 +571,6 @@ textarea.form-control {
   }
 }
 
-blockquote {
-  display: inline-block;
-  padding: 10px 20px;
-  background: #eaeaea;
-  border-left: 2px solid #41228e;
-  font-style: italic;
-  font-size: 22px;
-}
 
 .content * {
   margin-bottom: 20px;
